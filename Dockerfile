@@ -5,7 +5,7 @@ FROM node:22.16.0
 RUN apt-get update && apt-get install -y git
 
 # Clona repositorio desde GitHub
-RUN git clone https://github.com/usuario/repositorio.git /usr/src/app
+RUN git clone https://github.com/AresA1102/servirdor-node.git /usr/src/app
 
 # Define el directorio de trabajo
 WORKDIR /usr/src/app
